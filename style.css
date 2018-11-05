@@ -1,0 +1,150 @@
+@font-face {
+    font-family: tinder;
+    src: url(./fonts/tinder.ttf);
+}
+
+body{
+    font-family: tinder;
+}
+
+.container{
+    width: 400px;
+    height: 650px;
+    margin: auto;
+    background-color: rgb(233, 233, 233);
+    padding: 1px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.imageholder{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.buttonholder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 6px solid rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+.button--info{
+    width: 60px;
+    height: 60px;
+    margin: auto -5px auto -5px;
+}
+
+.button--dislike{
+    background-image: url(./images/x.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button--like{
+    background-image: url(./images/like.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.infoholder{
+    width: 90%;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.pastPeople{
+    background-color: #fefefe;
+    margin: 3% auto;
+    padding: 0px;
+    border: 1px solid #888;
+    width: 320px;
+    height: 500px;
+    overflow: auto;
+}
+
+.modal{
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: scroll;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.close {
+    color: rgb(126, 126, 126);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.distance{
+    cursor: pointer;
+}
+
+.mapboxgl-missing-css{
+    display: none;
+}
+
+.mapboxgl-canvas-container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+canvas{
+    width: 320px;
+    height: 500px;
+}
+
+h2{
+    padding: 3px;
+    margin: -8px;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5{
+    padding-left: 5px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+img{
+    width: 100%;
+}
